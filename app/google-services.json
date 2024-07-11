@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "284351885491",
+    "project_id": "tajnak-buster",
+    "storage_bucket": "tajnak-buster.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284351885491:android:cfcbfe7b95f0bedfb300c6",
+        "android_client_info": {
+          "package_name": "cz.cvut.fit.tomanma9"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIPuEUqWNEyr4kflJUscjgIi4E-vvHELI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

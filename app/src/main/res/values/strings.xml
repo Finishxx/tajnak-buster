@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">tajnakbuster</string>
+    <string name="add_summoner_button">Add summoner</string>
+    <string name="notification_after_list">were busted!</string>
+    <string name="notification_title">Tajňák detected</string>
+    <string name="notification_permission_title">Notification permission requested</string>
+    <string name="notification_channel_description">"Notifications containing monitored summoners, which started playing "</string>
+    <string name="notification_channel_name">All TajnakBuster notifications</string>
+    <string name="back_button">Go back</string>
+    <string name="add_screen_adding_text">Adding summoner...</string>
+    <string name="add_screen_summoner_name_field_label">Summoner name</string>
+    <string name="add_screen_summoner_tag_field_label">Summoner tag</string>
+    <string name="add_screen_snackbar_summoner_already_present">Summoner already present!</string>
+    <string name="add_screen_snackbar_summoner_not_found">Summoner with given name and tag was not found!</string>
+    <string name="add_screen_snackbar_summoner_added_successfully">Summoner added successfully</string>
+    <string name="detail_screen_unsuccessful_loading_info">Could not find selected summoner!</string>
+    <string name="detail_screen_successful_delete">Summoner deleted successfully!</string>
+    <string name="detail_screen_when_deleting_text">Deleting summoner...</string>
+    <string name="detail_screen_delete_summoner_icon_description">Delete summoner</string>
+    <string name="detail_screen_in_game_text">In game</string>
+    <string name="detail_screen_not_in_game_text">Not in game</string>
+    <string name="detail_screen_status_label">Status</string>
+    <string name="detail_screen_refresh_button_description">Refresh button</string>
+    <string name="summoner_icon">Summoner Icon</string>
+    <string name="list_screen_permission_rationale">Send notifications when summoners are active</string>
+    <string name="list_screen_monitored_summoners_headline">Monitored Summoners</string>
+    <string name="list_screen_search_description">Search</string>
+    <string name="list_screen_do_notification_description">Do notifications</string>
+    <string name="filter_screen_search_bar_place_holder">Filter characters...</string>
+    <string name="filter_screen_clear_search_icon_description">Stop searching</string>
+    <string name="summoner_icon_description_of">"Summoner icon of "</string>
+    <string name="summoner_status_indicator_inactive">Summoner status indicator inactive</string>
+    <string name="summoner_status_indicator_active">Summoner status indicator active</string>
+    <string name="info_button_description">Info button</string>
+    <string name="riot_legal_boilerplate">Tajňák Buster is not endorsed by Riot Games and does not reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc</string>
+    <string name="help_confirm_button">Help confirm button</string>
+</resources>
