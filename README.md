@@ -81,10 +81,10 @@ Possible future extensions to Android Tajňák Buster:
 
 ![Detail screen](screenshots/detail.PNG)
 
-### Detail screen
+### Search screen
 
-![Seatch screen](screenshots/search.PNG)
+![Search screen](screenshots/search.PNG)
 
 ### Add screen
 
-![Search screen](screenshots/add.PNG)
+![Add screen](screenshots/add.PNG)
