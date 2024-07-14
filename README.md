@@ -60,7 +60,7 @@ practically never reach API rate limits.
 Input your own Riot Api key into a `riotApiKey` variable in `local.properties` file, then compile
 and start application in Android Studio.
 
-## Future extensions
+## Future extensions and known issues
 
 Possible future extensions to Android Tajňák Buster:
 
