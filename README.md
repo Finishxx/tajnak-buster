@@ -70,6 +70,7 @@ Possible future extensions to Android Tajňák Buster:
 - Last check times being shown
 - Refresh button on List screen is for debugging purposes - calls the NotifyOnNewGameUseCase, which
   activates the notifications, should be reworked/removed later
+- Refresh buttons should visually signal that they are doing something
 
 ## Screenshots
 
