@@ -17,13 +17,10 @@ these services.
 For starters the aforementioned API calls require an API *key* to be provided. The most
 basic Developer Api key automatically regenerates every 24 hours and is useful for just testing the
 individual API calls. Personal and production API keys don't regenerate on their own, but they need
-to be approved by Riot themselves. Developer and personal tokens have relatively low rate limits of
-20 requests every second and 100 requests every 2 minutes. Production tokens start at much higher
-500 requests every 10 seconds and 30,000 requests every 10 minutes. Personal tokens are given
-liberally to almost anyone with half-decent personal use-case (school work, personal site statistics
-etc.), production tokens on the other hand are heavily restricted.
-
-For Tajňák Buster a personal token was successfully acquired by registering it as a product.
+to be approved by Riot themselves. Developer and personal tokens have relatively low rate limits,
+whereas production tokens have much higher capacity. Personal tokens are given liberally to almost
+anyone with half-decent personal use-case (school work, personal site statistics etc.),
+production tokens on the other hand are heavily restricted.
 
 ## Big picture
 
@@ -47,13 +44,10 @@ application. Meaning that if e.g. 6 people monitor each other and all of them ra
 at the exact same second, the rate limit will be exceeded, whereas backend would do at max 6 API
 calls.
 
-Also Android does not natively support PeriodicWorkers with period of less than 15 minutes, most
+Also Android does not natively support `PeriodicWorker`s with period of less than 15 minutes, most
 likely because of battery concerns. But a game of League of Legends can be shorter than 15 minutes,
 resulting in misses - not registering a Tajňák, when it happens. Workarounds are possible, but are
-complex, error-prone and will probably impact battery life.
-
-Even with these limitations in mind, 4 people monitoring themselves should be low-enough load to
-practically never reach API rate limits.
+complex, error-prone and will probably negatively impact battery life.
 
 ## Usage
 
