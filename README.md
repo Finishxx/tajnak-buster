@@ -30,7 +30,7 @@ Google's recommended Android architecture is used.
 ### Managing summoners
 
 Summoners can be added by their Riot Id which consists of summoner name and summoner tag, commonly
-displayed like so: <summonerName>#<summonerTag>. When adding a summoner, it is checked if the
+displayed like so: \<summonerName\>#\<summonerTag\>. When adding a summoner, it is checked if the
 summoner with given Riot Id actually exists and if so, he is saved into local Room DB.
 
 ### Monitoring summoners
