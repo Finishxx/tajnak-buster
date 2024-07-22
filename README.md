@@ -65,6 +65,7 @@ Possible future extensions to Android Tajňák Buster:
 - Refresh button on List screen is for debugging purposes - calls the NotifyOnNewGameUseCase, which
   activates the notifications, should be reworked/removed later
 - Refresh buttons should visually signal that they are doing something
+- Nickname changes are not accounted for
 
 ## Screenshots
 
